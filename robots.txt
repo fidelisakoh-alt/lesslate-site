@@ -1,0 +1,8 @@
+# Public search access, including Googlebot, Bingbot, OAI-SearchBot,
+# Applebot and PerplexityBot. No previous training opt-out existed.
+# GPTBot and Applebot-Extended continue to inherit public access.
+User-agent: *
+Allow: /
+Disallow: /__review/
+
+Sitemap: https://lesslate.app/sitemap.xml
